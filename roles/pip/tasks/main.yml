@@ -1,0 +1,5 @@
+---
+- name: install latest version of pip
+  package:
+    name: python-pip
+    state: latest

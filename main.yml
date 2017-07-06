@@ -1,7 +1,0 @@
----
-- name: read contents of the install file
-  hosts: nginx
-  tasks:
-    - include: 'Tasks/install.yml'
-
-

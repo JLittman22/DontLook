@@ -9,3 +9,15 @@
   service:
     name: nginx
     state: started
+
+- lineinfile:
+    path: '/etc/nginx/nginx.conf'
+    regexp: 'listen'
+    insertafter: 'listen'
+    line: 'listen 8080'
+    state: absent
+
+- name: restart nginx
+  service:
+    name: nginx
+    state: restarted

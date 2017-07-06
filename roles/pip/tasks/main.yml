@@ -1,5 +1,9 @@
 ---
 - name: install latest version of pip
-  package:
+#   package:
+#     name: python-pip
+#     state: latest
+  apt:
     name: python-pip
     state: latest
+    update_cache: yes

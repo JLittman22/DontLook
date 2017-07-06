@@ -1,3 +1,5 @@
 ---
-- name: install postgress
-  command: "echo {{ package_name }} is installed"
+- name: install the latest version of postgres
+  package:
+    name: postgresql
+    state: latest

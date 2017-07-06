@@ -1,0 +1,3 @@
+---
+- name: install postgress
+  command: "echo {{ package_name }} is installed"

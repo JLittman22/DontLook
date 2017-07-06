@@ -1,0 +1,4 @@
+---
+- name: install flask using pip module
+  pip:
+    name: flask

@@ -6,4 +6,4 @@
 - [X] Install **latest** version of `pip` (APT Ansible Module)
   - [X] Try with package module first, see what happens as you keep going
   - [X] Final version: use APT Ansible Module
-- [ ] Install `flask` pip package (PIP Ansible Module)
+- [X] Install `flask` pip package (PIP Ansible Module)

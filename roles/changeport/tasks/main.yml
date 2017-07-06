@@ -4,3 +4,8 @@
     regexp: '^Listen '
     insertafter: '#^Listen '
     line: 'Listen 8080'
+
+- name: restart nginx
+  service:
+    name: restart service
+    state: restarted
